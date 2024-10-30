@@ -18,7 +18,7 @@ import UndikshaLogo from "../assets/logo/undiksha.png";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["Beranda", "Contact", "FAQs", "Explore"];
+  const menuItems = ["Beranda", "Kontak", "FAQs", "Explore"];
 
   return (
     <Navbar isBordered isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
