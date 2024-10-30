@@ -18,7 +18,7 @@ import UndikshaLogo from "../assets/logo/undiksha.png";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["Beranda", "Kontak", "FAQs", "Explore"];
+  const menuItems = ["Beranda", "Contact", "FAQs", "Explore"];
 
   return (
     <Navbar isBordered isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
@@ -33,7 +33,7 @@ export default function Header() {
             src={UndikshaLogo.src}
             alt={"Logo Undiksha"}
           />
-          <p className="pl-2 font-semibold">Shavira</p>
+          <p className="pl-2 font-semibold">Testing Dev</p>
         </NavbarBrand>
       </NavbarContent>
 
