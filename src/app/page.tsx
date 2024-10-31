@@ -128,9 +128,9 @@ export default function Home() {
   return (
     <main className="pt-10 pb-20 flex flex-col items-center justify-center p-4 bg-gradient-to-r from-[#03097d] to-[#2aa9e0] sm:bg-gradient-to-r sm:from-[#03097d] sm:from-10% sm:via-[#023781] sm:via-30% sm:to-[#2aa9e0] sm:to-90%">
       <div id="info-bot" className="text-center text-white tracking-wide">
-        <h1 className="text-5xl sm:text-7xl font-bold pb-2">TES DEV V3</h1>
+        <h1 className="text-5xl sm:text-7xl font-bold pb-2">TES DEV V2</h1>
         <p className="text-sm sm:text-3xl">
-          TES DEV V3
+          TES DEV V2
         </p>
       </div>
       <div className="mt-4 flex flex-row gap-2 items-center justify-center">
